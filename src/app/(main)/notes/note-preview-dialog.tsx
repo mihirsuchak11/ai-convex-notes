@@ -28,7 +28,7 @@ export function NotePreviewDialog({ note }: NotePreviewDialogProps) {
 
   const [deletePending, setDeletePending] = useState(false);
 
-  async function handleDelete(params: type) {
+  async function handleDelete() {
     setDeletePending(true);
 
     try {
